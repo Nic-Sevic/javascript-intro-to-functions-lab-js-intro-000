@@ -1,20 +1,20 @@
-shout(entry) => {
+shout(entry) {
   return entry.toUpperCase()
 }
 
-whisper(entry) => {
+whisper(entry) {
   return entry.toLowerCase()
 }
 
-logShout(string) => {
+logShout(string) {
   console.log(string.toUpperCase())
 }
 
-logWhisper(string) => {
+logWhisper(string) {
   console.log(string.toLowerCase())
 }
 
-sayHiToGrandma(string)=>{
+sayHiToGrandma(string) {
   if (string === string.toLowerCase()){
     return `I can't hear you!`
   }
